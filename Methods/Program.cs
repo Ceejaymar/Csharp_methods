@@ -10,6 +10,10 @@ namespace Methods
 	{
 		static void Main(string[] args)
 		{
+			
+		}
+		static void UsePoints()
+		{
 			try
 			{
 				var point = new Point(10, 20);
@@ -24,7 +28,6 @@ namespace Methods
 
 				Console.WriteLine("The application experienced and error");
 			}
-			
 		}
 	}
 }
